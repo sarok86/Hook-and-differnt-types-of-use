@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {useState ,useEffect} from 'react';
 
 const Logger = () => {
 
@@ -6,7 +6,11 @@ const Logger = () => {
     const [second , setSecond] =useState(0);
 
     useEffect(()=>{
-        console.log(number)
+        console.log(number);
+
+        return () => {
+            console.log("The logger component is removed  from DOM")
+        }
     },[])
 
     return (
