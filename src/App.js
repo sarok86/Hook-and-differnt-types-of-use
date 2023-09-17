@@ -1,11 +1,12 @@
 import React from 'react';
-import Counter from './components/Counter';
+// import Counter from './components/Counter';
+import NewCounter from './components/NewCounter';
 // import ComA from './components/ComA';
 // import Data from './components/Data';
 // import Logger from './components/Logger';
 
-export const NameContext = React.createContext();
-export const AgeContext = React.createContext();
+// export const NameContext = React.createContext();
+// export const AgeContext = React.createContext();
 
 const App = () => {
 
@@ -24,7 +25,8 @@ const App = () => {
         </AgeContext.Provider>
       </NameContext.Provider> */}
 
-      <Counter />
+      {/* <Counter /> */}
+      <NewCounter />
     </div>
   );
 };
