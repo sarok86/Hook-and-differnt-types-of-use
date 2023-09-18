@@ -1,6 +1,6 @@
 import React from 'react';
-// import Counter from './components/Counter';
-import NewCounter from './components/NewCounter';
+import Counter from './components/Counter';
+// import NewCounter from './components/NewCounter';
 // import ComA from './components/ComA';
 // import Data from './components/Data';
 // import Logger from './components/Logger';
@@ -25,8 +25,8 @@ const App = () => {
         </AgeContext.Provider>
       </NameContext.Provider> */}
 
-      {/* <Counter /> */}
-      <NewCounter />
+      <Counter />
+      {/* <NewCounter /> */}
     </div>
   );
 };
