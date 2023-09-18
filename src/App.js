@@ -1,5 +1,7 @@
 import React from 'react';
-import Counter from './components/Counter';
+// import GetData from './components/GetData';
+import NewGetData from './components/NewGetData';
+// import Counter from './components/Counter';
 // import NewCounter from './components/NewCounter';
 // import ComA from './components/ComA';
 // import Data from './components/Data';
@@ -25,8 +27,11 @@ const App = () => {
         </AgeContext.Provider>
       </NameContext.Provider> */}
 
-      <Counter />
+      {/* <Counter /> */}
       {/* <NewCounter /> */}
+
+      {/* <GetData /> */}
+      <NewGetData />
     </div>
   );
 };
