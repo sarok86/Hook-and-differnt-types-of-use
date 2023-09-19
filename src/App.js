@@ -1,11 +1,12 @@
 import React from 'react';
 // import GetData from './components/GetData';
-import NewGetData from './components/NewGetData';
+// import NewGetData from './components/NewGetData';
 // import Counter from './components/Counter';
 // import NewCounter from './components/NewCounter';
 // import ComA from './components/ComA';
 // import Data from './components/Data';
 // import Logger from './components/Logger';
+import Ref  from './components/Ref';
 
 // export const NameContext = React.createContext();
 // export const AgeContext = React.createContext();
@@ -31,7 +32,9 @@ const App = () => {
       {/* <NewCounter /> */}
 
       {/* <GetData /> */}
-      <NewGetData />
+      {/* <NewGetData /> */}
+
+      <Ref />
     </div>
   );
 };
